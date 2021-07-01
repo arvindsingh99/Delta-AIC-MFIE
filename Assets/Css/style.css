@@ -1,0 +1,249 @@
+body {
+    font-family: sans-serif;
+    line-height: 21.33 px;
+}
+
+
+/* Navbar */
+
+.toggle-icon {
+    color: #ffffff;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #277D8C;
+}
+
+.topnav h1 {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 33% 10px 10px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.topnav a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 20px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: #277D8C;
+    size: 100%;
+}
+
+.topnav a.active {
+    background-color: white;
+    color: #277D8C;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.apply-button {
+    background-color: #FF725E;
+    color: white;
+}
+
+
+/* End Navbar */
+
+
+/* Latest Events */
+
+.latest-events {
+    margin: 10px 0px 10px 0px;
+    justify-content: center;
+    display: flex;
+}
+
+.latest-events h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300px;
+}
+
+.latest-events button {
+    color: #FF725E;
+    font-size: 21px;
+    font-weight: 300;
+    background-color: white;
+}
+
+.latest-events .big-button {
+    color: #000000;
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: 600;
+    border-radius: 5%;
+    border: 1px solid#FF725E;
+}
+
+.latest-events .big-button i {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.latest-events button img {
+    height: 20px;
+}
+
+.latest-events button:hover {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 300;
+    background-color: #277D8C;
+}
+
+.latest-events .big-button:hover {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: 700;
+    border-radius: 5%;
+    border: 0px solid#FF725E;
+    background-color: #277D8C;
+}
+
+.latest-events b {
+    color: #FF725E;
+    font-size: 25px;
+}
+
+
+/* End Latest Events */
+
+
+/* ********************************************************* Details **************************/
+
+.details {
+    margin: 30px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.details-text-box {
+    background-color: #277D8C;
+}
+
+.details-text-box h3 {
+    color: #ffffff;
+}
+
+.details-text-box p {
+    color: #ffffff;
+}
+
+
+/* End Details */
+
+
+/* ********************************************************* Start one-four **************************/
+
+.one-four {
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ********************************************************* End one-four **************************/
+
+
+/* ********************************************************* Start one-five **************************/
+
+.one-five {
+    margin: 20px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ********************************************************* End one-five **************************/
+
+
+/* Footer */
+
+.footer {
+    padding-top: 20px;
+}
+
+.footer-top {
+    padding-top: 60px;
+    background: #277D8C;
+}
+
+.text p {
+    margin-top: 50px;
+    margin-left: 0px;
+    color: #000000;
+    justify-content: center;
+    display: flex;
+}
+
+.text-heading h4,
+h6,
+p,
+h5 {
+    margin-left: 0px;
+    color: #000000;
+    justify-content: center;
+    display: flex;
+}
+
+.social-icon {
+    color: #000000;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* End Footer */
+
+.programs {
+    background: #277D8C;
+    padding: 30px;
+    color: white;
+    margin: 10px;
+}
+
+.container hr {
+    background-color: black;
+}
+
+#categories a {
+    background-color: #277D8C;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    color: white
+}
+
+#categories .nav-item a:active {
+    color: white;
+    background-color: white;
+}
+
+#categories a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+body {
+    overflow-x: hidden;
+}

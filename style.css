@@ -1,0 +1,477 @@
+body {
+  font-family: sans-serif;
+  line-height: 21.33 px;
+}
+
+/* Navbar */
+
+.toggle-icon {
+  color: #ffffff;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #277D8C;
+}
+
+.topnav h1 {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 33% 10px 10px;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.topnav a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-left: 20px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #277D8C;
+  size: 100%;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: #277D8C;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.apply-button {
+  background-color: #FF725E;
+  color: white;
+}
+
+/* End Navbar */
+/* HOME */
+.home img{
+  height:100%;
+  width:100%;
+}
+/* HOME */
+
+/* Latest Events */
+
+.latest-events {
+  margin: 10px 0px 10px 0px;
+  justify-content: center;
+  display: flex;
+}
+
+.latest-events h1, h2, h3, h4, h5, h6 {
+  font-weight: 300px;
+}
+
+.latest-events .heading h2{
+  color: #277D8C;
+  font-size: 25 px;
+  font-weight: 700 ;
+  line-height:30px;
+  
+  
+}
+
+.latest-events button {
+  color: #FF725E;
+  font-size: 21px;
+  font-weight: 300;
+  background-color: white;
+}
+
+.latest-events .big-button {
+  color: #000000;
+  font-size: 30px;
+  font-family: Helvetica;
+  font-weight: 600;
+  border-radius: 5%;
+  border: 1px solid#FF725E;
+}
+
+.latest-events .big-button i {
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.latest-events button img {
+  height: 20px;
+}
+
+.latest-events button:hover {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 300;
+  background-color: #277D8C;
+}
+.latest-events .big-button:hover {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Helvetica;
+  font-weight: 700;
+  border-radius: 5%;
+  border: 0px solid#FF725E;
+  background-color: #277D8C;
+  
+}
+.latest-events b {
+  color: #FF725E;
+  font-size: 25px;
+}
+
+/* End Latest Events */
+
+
+/* ********************************************************* Details **************************/
+.details{
+  margin:60px 10px 10px 10px;
+  display:flex;
+  justify-content: center;
+}
+.details-text-box{
+  background-color: #277D8C;
+}
+.details-text-box h3{
+color: #ffffff;
+}
+.details-text-box p{
+  color: #ffffff;
+}
+/* End Details */
+
+
+/* ********************************************************* Start one-four **************************/
+.one-four{
+  margin:60px 0px 10px 0px;
+  display:flex;
+  justify-content: center;
+}
+
+/* ********************************************************* End one-four **************************/
+
+
+
+
+
+
+/* ********************************************************* Start one-five **************************/
+.one-five{
+  margin:60px 10px 10px 10px;
+  display:flex;
+  justify-content: center;
+}
+/* ********************************************************* End one-five **************************/
+
+/* ********************************************************* Start one-expert **************************/
+.one-expert{
+  margin:60px 0px 10px 0px;
+  display:flex;
+  justify-content: center;
+}
+
+/* carousel */
+.media-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+    margin-top: 30px;
+}
+
+/* Previous button  */
+.media-carousel .carousel-control.left {
+    left: -3px;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 30px
+}
+
+/* Next button  */
+.media-carousel .carousel-control.right {
+    right: -3px !important;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 30px
+}
+
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li {
+    background: #c0c0c0;
+}
+
+.media-carousel .carousel-indicators .active {
+    background: #333333;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .media-carousel img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .media-carousel img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+}
+
+/* End carousel */
+
+
+
+
+
+
+
+/* ********************************************************* End one-expert **************************/
+
+
+
+/* *********************************************************Start one-our-committies **************************/
+.one-our-committies{
+  margin:60px 10px 40px 10px;
+  display:flex;
+  justify-content: center;
+}
+.one-our-committies .heading h2{
+  color: #277D8C;
+  font-size: 25 px;
+  font-weight: 700 ;
+  line-height:30px;
+  margin-bottom: 30px;
+  
+}
+/* ********************************************************* End one-our-committies  **************************/
+
+
+/* *********************************************************Start one-startups **************************/
+.one-startups{
+  margin:40px 10px 10px 10px;
+  display:flex;
+  justify-content: center;
+}
+.one-startups .heading h2{
+  color: #277D8C;
+  font-size: 25 px;
+  font-weight: 700 ;
+  line-height:30px;
+  margin-bottom: 30px;
+  
+}
+
+.startups h1, h2, h3, h4, h5, h6 {
+  font-weight: 300px;
+}
+
+.startups button {
+  color: #FF725E;
+  font-size: 21px;
+  font-weight: 300;
+  background-color: white;
+}
+
+.startups .big-button {
+  color: #000000;
+  font-size: 30px;
+  font-family: Helvetica;
+  font-weight: 600;
+  border-radius: 5%;
+  border: 1px solid#FF725E;
+}
+
+.startups .big-button i {
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.startups button img {
+  height: 20px;
+}
+
+.startups button:hover {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 300;
+  background-color: #277D8C;
+}
+.startups .big-button:hover {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Helvetica;
+  font-weight: 700;
+  border-radius: 5%;
+  border: 0px solid#FF725E;
+  background-color: #277D8C;
+  
+}
+.startups b {
+  color: #FF725E;
+  font-size: 25px;
+}
+/* ********************************************************* End one-startups  **************************/
+
+
+
+
+/* ********************************************************* Start one-our-partner **************************/
+.one-our-partner{
+  margin:60px 10px 10px 10px;
+  display:flex;
+  justify-content: center;
+}
+   
+
+.carousel {	
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.carousel .carousel-item {
+	text-align: center;
+	overflow: hidden;
+  height:200px;
+  
+  
+}
+.carousel .carousel-item .img-box {
+	background: #fff;
+	padding: 9px;
+  box-shadow: 0 6px 20px -6px rgba(0,0,0,0.4);
+  height:200px;
+}
+.carousel .carousel-item img {
+  margin: 0 auto;
+  min-height:250px;
+  min-width:350px;
+  
+}
+.carousel-control-prev, .carousel-control-next {
+	width: 68px;
+	background: none;
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 28px;
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	margin-top: -25px;
+	z-index: 5;
+	left: 0;
+	right: 0;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	border: none;
+	border-radius: 50%;
+	margin: 10px 40px;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+}
+.carousel-indicators li.active {
+	background: #555;
+}
+/* ********************************************************* End one-our-partner **************************/
+
+
+/* *********************************************************Start one-questions **************************/
+.one-questions{
+  margin:30px 10px 10px 10px;
+  display:flex;
+  justify-content: center;
+}
+
+
+/* ********************************************************* End one-questions  **************************/
+
+
+
+/* ********************************************************* Invest-Journey-Tree  **************************/
+.journey-tree{
+  margin:50px 10px 10px 10px;
+  display:flex;
+  justify-content: center;
+}
+.journey-tree .vertical-branch1 { 
+  border-left: 5px solid #277D8C; 
+  height: 100px; 
+  border-radius:20%;
+} 
+.journey-tree .vertical-branch2 { 
+  border-left: 5px solid #277D8C; 
+  height: 100px; 
+  border-radius:20%;
+} 
+/* ********************************************************* End Invest-Journey-Tree **************************/
+
+/* Footer */
+
+.footer {
+  padding-top: 20px;
+}
+
+.footer-top {
+  padding-top: 20px;
+  background:#BBDDE3;
+  ;
+}
+
+.text p {
+  margin-top: 50px;
+  margin-left: 0px;
+  color: #000000;
+  justify-content: center;
+  display: flex;
+}
+
+.text-heading h4, h6, p, h5 {
+  margin-left: 0px;
+  color: #000000;
+  justify-content: center;
+  display: flex;
+}
+
+.social-icon {
+  color: #000000;
+  justify-content: center;
+  display: flex;
+}
+
+/* End Footer */
